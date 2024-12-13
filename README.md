@@ -11,7 +11,7 @@ Textscript.sh
 
 Every script start with 
 
-'#!/bin/bash'
+> #!/bin/bash
 
 
 '''
