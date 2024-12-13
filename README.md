@@ -1,5 +1,6 @@
 #Bash shell scripting
 Shell scripting is an executable file that contains a list of commands and possibly with programming logic to control decision-making in the overall task.
+
 **creation of shell script**
 __example__
 Textscript.sh 
