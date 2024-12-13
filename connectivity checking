@@ -1,0 +1,14 @@
+checking connectivity
+#!/bin/bash
+#checking connectivity 
+If [ $# -eq 0]: then
+Echo “usage: $0 <machine> <machine> <machine> ….”
+Exit 1
+Fi
+#loop through each machine provide as argument
+For machine in “$@”; do
+Echo “ping $ machine …..”
+# ping the machine three time
+Ping –c 3 “$machine ”
+Echo “ --------- ” 
+done    
