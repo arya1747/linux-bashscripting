@@ -10,7 +10,10 @@ __example__
 Textscript.sh 
 
 Every script start with 
+
 >#!/bin/bash
+
+
 '''
 #!/bin/bash/
 Echo “this is the date and time”
