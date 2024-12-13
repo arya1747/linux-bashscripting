@@ -16,10 +16,17 @@ Every script start with
 
 
 > #!/bin/bash/
+
 Echo “this is the date and time”
+
 Date
+
 Echo “this is who logged into the system ”
+
 Who
+
 All the file want permission for running
+
 Chmod +x filename.sh
+
 Sh filename.sh
