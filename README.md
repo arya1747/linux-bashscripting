@@ -11,10 +11,10 @@ Textscript.sh
 
 Every script start with 
 
-' #!/bin/bash '
+'#!/bin/bash'
 
 
-' ' '
+'''
 #!/bin/bash/
 Echo “this is the date and time”
 Date
@@ -23,4 +23,4 @@ Who
 All the file want permission for running
 Chmod +x filename.sh
 Sh filename.sh
-' ' '
+'''
