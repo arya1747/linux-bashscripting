@@ -1,0 +1,31 @@
+#Checking connectivity in a text file 
+
+#!/bin/bash
+
+#function to check connectivity to a machine
+Check_connectivity() {
+    machine=$1
+    echo "pinging $machine ...."
+    ping -c 3 $machine
+
+    #check the exist status of ping command
+    if [ $? -eq 0 ]; then
+        echo "$machin is reachable"
+    else
+      echo "$machine is unreachable."
+    fi
+}
+#main script
+echo " please provide the input file containing the of Linux machine IP addresses :"
+read input_file
+
+#check if the input file exists
+ if [ ! -f "$input_file" ]; then
+     echo "input file not found. Existing."
+    exit 1
+ fi
+#Read IP Addresses from input file and check connectivity
+while IFS= read -r machine_ip; do
+         Check_connectivity $machine_ip
+done < "$input_file"
+
