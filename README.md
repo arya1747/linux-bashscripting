@@ -30,3 +30,5 @@ All the file want permission for running
 Chmod +x filename.sh
 
 Sh filename.sh '
+
+<img src="https://github.com/arya1747/linux-bashscripting/blob/d09e0a0cc2b12c31b4c3b4b362fc6a1cac3e40a6/simpe%20script.png">
